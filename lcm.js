@@ -15,7 +15,7 @@ function gcd(a, b) {
 http.createServer((req, res) => {
   const parsed = url.parse(req.url, true);
 
-  if (parsed.pathname !== '/ivan_petrov_99_gmail_com') {
+  if (parsed.pathname !== '/mukhamedjanovjr_gmail_com') {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     return res.end('Not found');
   }
